@@ -22,7 +22,7 @@ public class EloquaMain {
 	
 	public EloquaMain() {
 		
-		this.lPClient = new LandingPageClient(new Configuration("TechnologyPartnerAssistDigital","Drilon.Kerxhaliu", "123Drilon!@#"));
+		this.lPClient = new LandingPageClient(new Configuration("TechnologyPartnerAssistDigital","", ""));
 		
 		
 		
