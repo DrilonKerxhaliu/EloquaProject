@@ -22,7 +22,7 @@ public class EloquaMain {
 	
 	public EloquaMain() {
 		
-		this.lPClient = new LandingPageClient(new Configuration("TechnologyPartnerAssistDigital","", ""));
+		this.lPClient = new LandingPageClient(new Configuration("Company","User", "Password"));
 		
 		
 		
@@ -100,7 +100,7 @@ public class EloquaMain {
 	            if(statusCell == null) {
 	             statusCell = row.createCell(3);
 	         }
-	            statusCell.setCellValue("KO - Landing Page non è trovato.");
+	            statusCell.setCellValue("KO - Landing Page non Ã¨ trovato.");
 	            System.out.println("Landing page is not found.");
 	            return;
 	           }
